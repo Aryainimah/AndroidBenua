@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_negara"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="horizontal"
+    tools:context="com.projectarya.Negara"
+    android:background="@drawable/back">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pilih Negara"
+                android:layout_gravity="center"
+                android:textSize="20pt"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.Indonesia"
+                android:textSize="20dp"/>
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_gravity="left"
+                android:background="@drawable/indo"
+                android:id="@+id/indonesia"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2.Filipina"
+                android:textSize="20dp"/>
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_gravity="left"
+                android:background="@drawable/b"
+                android:id="@+id/filipina"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3.Brunei Darussalam"
+                android:textSize="20dp"/>
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_gravity="left"
+                android:background="@drawable/a"
+                android:id="@+id/brunei"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.Malaysia"
+                android:textSize="20dp"/>
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_gravity="left"
+                android:background="@drawable/e"
+                android:id="@+id/malaysia"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5.Myanmar"
+                android:textSize="20dp"/>
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_gravity="left"
+                android:src="@drawable/f"
+                android:id="@+id/myanmar"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6.Timor Leste"
+                android:textSize="20dp"/>
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_gravity="left"
+                android:background="@drawable/i"
+                android:id="@+id/timorleste"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7.Singapura"
+                android:textSize="20dp"/>
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_gravity="left"
+                android:background="@drawable/g"
+                android:id="@+id/singapura"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8.Vietnam"
+                android:textSize="20dp"/>
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="85dp"
+                android:layout_gravity="left"
+                android:background="@drawable/j"
+                android:id="@+id/vietnam"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9.Kamboja"
+                android:textSize="20dp"/>
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_gravity="left"
+                android:background="@drawable/c"
+                android:id="@+id/kamboja"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10.Laos"
+                android:textSize="20dp"/>
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_gravity="left"
+                android:background="@drawable/d"
+                android:id="@+id/laos"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11.Thailand"
+                android:textSize="20dp"/>
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_gravity="left"
+                android:background="@drawable/h"
+                android:id="@+id/thailand"
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
